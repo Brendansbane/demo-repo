@@ -1,0 +1,36 @@
+body {
+  border: 5px solid black;
+  line-height: 1.4;
+  font-family: sans-serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+.freeshipping {
+  color: grey;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  color: white;
+  background-color: black;
+  text-transform: uppercase;
+}
+
+button:hover {
+  color: black;
+  background-color: white;
+  border: none;
+}
