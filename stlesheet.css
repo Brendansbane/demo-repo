@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -136,4 +137,32 @@ article {
 .add-cart:hover {
   color: black;
   background-color: white;
+}
+
+/* FLOAT SECTIONS */
+.img-sec {
+  float: left;
+}
+
+.pri-sec {
+  float: left;
+  width: 240px;
+  margin-left: 40px;
+}
+
+.prod-sec {
+  float: right;
+  width: 240px;
+}
+
+.price {
+  float: left;
+}
+
+.shipping {
+  float: right;
+}
+
+.clearfix {
+  clear: both;
 }
