@@ -58,10 +58,9 @@ article {
   left: -38px;
 }
 
-/* 
-.descr {
-  margin-bottom: 10px;
-} */
+.product-description {
+  clear: both;
+}
 
 .more-info:link,
 .more-info:visited {
@@ -108,7 +107,7 @@ article {
 .details-title {
   text-transform: uppercase;
   font-size: 16px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 15px;
 }
 
@@ -140,18 +139,20 @@ article {
 }
 
 /* FLOAT SECTIONS */
-.img-sec {
+.product-img {
   float: left;
+  margin-right: 40px;
 }
 
-.pri-sec {
+.product-info {
   float: left;
   width: 240px;
-  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
 }
 
-.prod-sec {
-  float: right;
+.product-details {
+  float: left;
   width: 240px;
 }
 
@@ -161,8 +162,5 @@ article {
 
 .shipping {
   float: right;
-}
-
-.clearfix {
-  clear: both;
+  margin-top: 2px;
 }
