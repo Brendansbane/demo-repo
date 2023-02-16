@@ -40,7 +40,7 @@ article {
   font-size: 12px;
   font-weight: bold;
   color: #777;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 .sale {
@@ -58,9 +58,9 @@ article {
   left: -38px;
 }
 
-.product-description {
+/* .product-description {
   clear: both;
-}
+} */
 
 .more-info:link,
 .more-info:visited {
@@ -76,10 +76,9 @@ article {
 
 .colour {
   background-color: #000;
+
   height: 22px;
   width: 22px;
-  display: inline-block;
-  margin-right: 10px;
 }
 
 .colour-blue {
@@ -139,7 +138,7 @@ article {
 }
 
 /* FLOAT SECTIONS */
-.product-img {
+/* .product-img {
   float: left;
   margin-right: 40px;
 }
@@ -163,4 +162,29 @@ article {
 .shipping {
   float: right;
   margin-top: 2px;
+} */
+
+/* FLEXBOX*/
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.product-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product-colours {
+  display: flex;
+  gap: 10px;
+}
+
+.product-info {
+  flex: 1;
+}
+
+.product-details {
+  flex: 1;
 }
